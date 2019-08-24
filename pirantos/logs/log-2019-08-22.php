@@ -2089,3 +2089,1000 @@ INFO - 2019-08-22 15:03:54 --> Controller Class Initialized
 DEBUG - 2019-08-22 15:03:54 --> Kimochi MX_Controller Initialized
 INFO - 2019-08-22 15:03:54 --> Final output sent to browser
 DEBUG - 2019-08-22 15:03:54 --> Total execution time: 0.3512
+INFO - 2019-08-22 15:32:28 --> Config Class Initialized
+INFO - 2019-08-22 15:32:28 --> Hooks Class Initialized
+DEBUG - 2019-08-22 15:32:28 --> UTF-8 Support Enabled
+INFO - 2019-08-22 15:32:28 --> Utf8 Class Initialized
+INFO - 2019-08-22 15:32:28 --> URI Class Initialized
+INFO - 2019-08-22 15:32:28 --> Router Class Initialized
+INFO - 2019-08-22 15:32:28 --> Output Class Initialized
+INFO - 2019-08-22 15:32:28 --> Security Class Initialized
+DEBUG - 2019-08-22 15:32:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 15:32:28 --> Input Class Initialized
+INFO - 2019-08-22 15:32:28 --> Language Class Initialized
+INFO - 2019-08-22 15:32:29 --> Language Class Initialized
+INFO - 2019-08-22 15:32:29 --> Config Class Initialized
+INFO - 2019-08-22 15:32:29 --> Loader Class Initialized
+INFO - 2019-08-22 15:32:29 --> Helper loaded: url_helper
+INFO - 2019-08-22 15:32:29 --> Helper loaded: file_helper
+INFO - 2019-08-22 15:32:29 --> Helper loaded: form_helper
+INFO - 2019-08-22 15:32:29 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 15:32:29 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 15:32:29 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 15:32:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 15:32:29 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 15:32:29 --> Controller Class Initialized
+DEBUG - 2019-08-22 15:32:29 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 15:32:29 --> Final output sent to browser
+DEBUG - 2019-08-22 15:32:29 --> Total execution time: 1.3647
+INFO - 2019-08-22 15:46:01 --> Config Class Initialized
+INFO - 2019-08-22 15:46:01 --> Hooks Class Initialized
+DEBUG - 2019-08-22 15:46:02 --> UTF-8 Support Enabled
+INFO - 2019-08-22 15:46:02 --> Utf8 Class Initialized
+INFO - 2019-08-22 15:46:02 --> URI Class Initialized
+INFO - 2019-08-22 15:46:02 --> Router Class Initialized
+INFO - 2019-08-22 15:46:02 --> Output Class Initialized
+INFO - 2019-08-22 15:46:02 --> Security Class Initialized
+DEBUG - 2019-08-22 15:46:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 15:46:02 --> Input Class Initialized
+INFO - 2019-08-22 15:46:02 --> Language Class Initialized
+INFO - 2019-08-22 15:46:02 --> Language Class Initialized
+INFO - 2019-08-22 15:46:02 --> Config Class Initialized
+INFO - 2019-08-22 15:46:02 --> Loader Class Initialized
+INFO - 2019-08-22 15:46:02 --> Helper loaded: url_helper
+INFO - 2019-08-22 15:46:02 --> Helper loaded: file_helper
+INFO - 2019-08-22 15:46:02 --> Helper loaded: form_helper
+INFO - 2019-08-22 15:46:02 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 15:46:02 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 15:46:02 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 15:46:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 15:46:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 15:46:02 --> Controller Class Initialized
+DEBUG - 2019-08-22 15:46:02 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 15:46:03 --> Final output sent to browser
+DEBUG - 2019-08-22 15:46:03 --> Total execution time: 1.1640
+INFO - 2019-08-22 15:49:48 --> Config Class Initialized
+INFO - 2019-08-22 15:49:48 --> Hooks Class Initialized
+DEBUG - 2019-08-22 15:49:48 --> UTF-8 Support Enabled
+INFO - 2019-08-22 15:49:48 --> Utf8 Class Initialized
+INFO - 2019-08-22 15:49:48 --> URI Class Initialized
+INFO - 2019-08-22 15:49:48 --> Router Class Initialized
+INFO - 2019-08-22 15:49:48 --> Output Class Initialized
+INFO - 2019-08-22 15:49:48 --> Security Class Initialized
+DEBUG - 2019-08-22 15:49:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 15:49:48 --> Input Class Initialized
+INFO - 2019-08-22 15:49:48 --> Language Class Initialized
+INFO - 2019-08-22 15:49:48 --> Language Class Initialized
+INFO - 2019-08-22 15:49:48 --> Config Class Initialized
+INFO - 2019-08-22 15:49:48 --> Loader Class Initialized
+INFO - 2019-08-22 15:49:48 --> Helper loaded: url_helper
+INFO - 2019-08-22 15:49:48 --> Helper loaded: file_helper
+INFO - 2019-08-22 15:49:48 --> Helper loaded: form_helper
+INFO - 2019-08-22 15:49:48 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 15:49:48 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 15:49:48 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 15:49:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 15:49:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 15:49:48 --> Controller Class Initialized
+DEBUG - 2019-08-22 15:49:48 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 15:49:48 --> Final output sent to browser
+DEBUG - 2019-08-22 15:49:48 --> Total execution time: 0.3491
+INFO - 2019-08-22 15:50:07 --> Config Class Initialized
+INFO - 2019-08-22 15:50:07 --> Hooks Class Initialized
+DEBUG - 2019-08-22 15:50:07 --> UTF-8 Support Enabled
+INFO - 2019-08-22 15:50:07 --> Utf8 Class Initialized
+INFO - 2019-08-22 15:50:07 --> URI Class Initialized
+INFO - 2019-08-22 15:50:07 --> Router Class Initialized
+INFO - 2019-08-22 15:50:07 --> Output Class Initialized
+INFO - 2019-08-22 15:50:07 --> Security Class Initialized
+DEBUG - 2019-08-22 15:50:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 15:50:07 --> Input Class Initialized
+INFO - 2019-08-22 15:50:07 --> Language Class Initialized
+INFO - 2019-08-22 15:50:07 --> Language Class Initialized
+INFO - 2019-08-22 15:50:07 --> Config Class Initialized
+INFO - 2019-08-22 15:50:07 --> Loader Class Initialized
+INFO - 2019-08-22 15:50:07 --> Helper loaded: url_helper
+INFO - 2019-08-22 15:50:07 --> Helper loaded: file_helper
+INFO - 2019-08-22 15:50:07 --> Helper loaded: form_helper
+INFO - 2019-08-22 15:50:07 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 15:50:07 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 15:50:07 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 15:50:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 15:50:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 15:50:07 --> Controller Class Initialized
+DEBUG - 2019-08-22 15:50:07 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 15:50:07 --> Final output sent to browser
+DEBUG - 2019-08-22 15:50:07 --> Total execution time: 0.3393
+INFO - 2019-08-22 15:51:54 --> Config Class Initialized
+INFO - 2019-08-22 15:51:54 --> Hooks Class Initialized
+DEBUG - 2019-08-22 15:51:54 --> UTF-8 Support Enabled
+INFO - 2019-08-22 15:51:55 --> Utf8 Class Initialized
+INFO - 2019-08-22 15:51:55 --> URI Class Initialized
+INFO - 2019-08-22 15:51:55 --> Router Class Initialized
+INFO - 2019-08-22 15:51:55 --> Output Class Initialized
+INFO - 2019-08-22 15:51:55 --> Security Class Initialized
+DEBUG - 2019-08-22 15:51:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 15:51:55 --> Input Class Initialized
+INFO - 2019-08-22 15:51:55 --> Language Class Initialized
+INFO - 2019-08-22 15:51:55 --> Language Class Initialized
+INFO - 2019-08-22 15:51:55 --> Config Class Initialized
+INFO - 2019-08-22 15:51:55 --> Loader Class Initialized
+INFO - 2019-08-22 15:51:55 --> Helper loaded: url_helper
+INFO - 2019-08-22 15:51:55 --> Helper loaded: file_helper
+INFO - 2019-08-22 15:51:55 --> Helper loaded: form_helper
+INFO - 2019-08-22 15:51:55 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 15:51:55 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 15:51:55 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 15:51:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 15:51:55 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 15:51:55 --> Controller Class Initialized
+DEBUG - 2019-08-22 15:51:55 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 15:51:55 --> Final output sent to browser
+DEBUG - 2019-08-22 15:51:55 --> Total execution time: 0.2956
+INFO - 2019-08-22 16:02:03 --> Config Class Initialized
+INFO - 2019-08-22 16:02:03 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:02:03 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:02:03 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:02:03 --> URI Class Initialized
+INFO - 2019-08-22 16:02:03 --> Router Class Initialized
+INFO - 2019-08-22 16:02:03 --> Output Class Initialized
+INFO - 2019-08-22 16:02:03 --> Security Class Initialized
+DEBUG - 2019-08-22 16:02:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:02:03 --> Input Class Initialized
+INFO - 2019-08-22 16:02:03 --> Language Class Initialized
+INFO - 2019-08-22 16:02:03 --> Language Class Initialized
+INFO - 2019-08-22 16:02:03 --> Config Class Initialized
+INFO - 2019-08-22 16:02:03 --> Loader Class Initialized
+INFO - 2019-08-22 16:02:03 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:02:03 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:02:03 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:02:03 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:02:03 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:02:03 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:02:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:02:03 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:02:03 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:02:03 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 16:02:03 --> Final output sent to browser
+DEBUG - 2019-08-22 16:02:03 --> Total execution time: 0.3137
+INFO - 2019-08-22 16:03:30 --> Config Class Initialized
+INFO - 2019-08-22 16:03:30 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:03:30 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:03:31 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:03:31 --> URI Class Initialized
+INFO - 2019-08-22 16:03:31 --> Router Class Initialized
+INFO - 2019-08-22 16:03:31 --> Output Class Initialized
+INFO - 2019-08-22 16:03:31 --> Security Class Initialized
+DEBUG - 2019-08-22 16:03:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:03:31 --> Input Class Initialized
+INFO - 2019-08-22 16:03:31 --> Language Class Initialized
+INFO - 2019-08-22 16:03:31 --> Language Class Initialized
+INFO - 2019-08-22 16:03:31 --> Config Class Initialized
+INFO - 2019-08-22 16:03:31 --> Loader Class Initialized
+INFO - 2019-08-22 16:03:31 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:03:31 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:03:31 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:03:31 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:03:31 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:03:31 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:03:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:03:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:03:31 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:03:31 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 16:03:31 --> Final output sent to browser
+DEBUG - 2019-08-22 16:03:31 --> Total execution time: 0.3631
+INFO - 2019-08-22 16:03:51 --> Config Class Initialized
+INFO - 2019-08-22 16:03:51 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:03:51 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:03:51 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:03:51 --> URI Class Initialized
+INFO - 2019-08-22 16:03:51 --> Router Class Initialized
+INFO - 2019-08-22 16:03:51 --> Output Class Initialized
+INFO - 2019-08-22 16:03:51 --> Security Class Initialized
+DEBUG - 2019-08-22 16:03:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:03:51 --> Input Class Initialized
+INFO - 2019-08-22 16:03:51 --> Language Class Initialized
+INFO - 2019-08-22 16:03:51 --> Language Class Initialized
+INFO - 2019-08-22 16:03:51 --> Config Class Initialized
+INFO - 2019-08-22 16:03:51 --> Loader Class Initialized
+INFO - 2019-08-22 16:03:51 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:03:51 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:03:51 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:03:51 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:03:51 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:03:51 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:03:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:03:51 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:03:51 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:03:51 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 16:03:51 --> Final output sent to browser
+DEBUG - 2019-08-22 16:03:51 --> Total execution time: 0.3603
+INFO - 2019-08-22 16:04:15 --> Config Class Initialized
+INFO - 2019-08-22 16:04:15 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:04:15 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:04:15 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:04:15 --> URI Class Initialized
+INFO - 2019-08-22 16:04:16 --> Router Class Initialized
+INFO - 2019-08-22 16:04:16 --> Output Class Initialized
+INFO - 2019-08-22 16:04:16 --> Security Class Initialized
+DEBUG - 2019-08-22 16:04:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:04:16 --> Input Class Initialized
+INFO - 2019-08-22 16:04:16 --> Language Class Initialized
+INFO - 2019-08-22 16:04:16 --> Language Class Initialized
+INFO - 2019-08-22 16:04:16 --> Config Class Initialized
+INFO - 2019-08-22 16:04:16 --> Loader Class Initialized
+INFO - 2019-08-22 16:04:16 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:04:16 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:04:16 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:04:16 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:04:16 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:04:16 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:04:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:04:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:04:16 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:04:16 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 16:04:16 --> Final output sent to browser
+DEBUG - 2019-08-22 16:04:16 --> Total execution time: 0.3578
+INFO - 2019-08-22 16:06:03 --> Config Class Initialized
+INFO - 2019-08-22 16:06:03 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:06:03 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:06:03 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:06:03 --> URI Class Initialized
+INFO - 2019-08-22 16:06:03 --> Router Class Initialized
+INFO - 2019-08-22 16:06:03 --> Output Class Initialized
+INFO - 2019-08-22 16:06:03 --> Security Class Initialized
+DEBUG - 2019-08-22 16:06:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:06:03 --> Input Class Initialized
+INFO - 2019-08-22 16:06:03 --> Language Class Initialized
+INFO - 2019-08-22 16:06:03 --> Language Class Initialized
+INFO - 2019-08-22 16:06:03 --> Config Class Initialized
+INFO - 2019-08-22 16:06:03 --> Loader Class Initialized
+INFO - 2019-08-22 16:06:03 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:06:03 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:06:03 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:06:03 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:06:04 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:06:04 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:06:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:06:04 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:06:04 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:06:04 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 16:06:04 --> Final output sent to browser
+DEBUG - 2019-08-22 16:06:04 --> Total execution time: 0.4295
+INFO - 2019-08-22 16:06:34 --> Config Class Initialized
+INFO - 2019-08-22 16:06:34 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:06:34 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:06:34 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:06:34 --> URI Class Initialized
+INFO - 2019-08-22 16:06:34 --> Router Class Initialized
+INFO - 2019-08-22 16:06:34 --> Output Class Initialized
+INFO - 2019-08-22 16:06:34 --> Security Class Initialized
+DEBUG - 2019-08-22 16:06:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:06:34 --> Input Class Initialized
+INFO - 2019-08-22 16:06:34 --> Language Class Initialized
+INFO - 2019-08-22 16:06:34 --> Language Class Initialized
+INFO - 2019-08-22 16:06:34 --> Config Class Initialized
+INFO - 2019-08-22 16:06:34 --> Loader Class Initialized
+INFO - 2019-08-22 16:06:34 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:06:34 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:06:34 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:06:34 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:06:34 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:06:34 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:06:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:06:34 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:06:34 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:06:34 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 16:06:34 --> Final output sent to browser
+DEBUG - 2019-08-22 16:06:34 --> Total execution time: 0.3687
+INFO - 2019-08-22 16:07:01 --> Config Class Initialized
+INFO - 2019-08-22 16:07:01 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:07:01 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:07:01 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:07:01 --> URI Class Initialized
+INFO - 2019-08-22 16:07:01 --> Router Class Initialized
+INFO - 2019-08-22 16:07:01 --> Output Class Initialized
+INFO - 2019-08-22 16:07:01 --> Security Class Initialized
+DEBUG - 2019-08-22 16:07:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:07:01 --> Input Class Initialized
+INFO - 2019-08-22 16:07:01 --> Language Class Initialized
+INFO - 2019-08-22 16:07:01 --> Language Class Initialized
+INFO - 2019-08-22 16:07:01 --> Config Class Initialized
+INFO - 2019-08-22 16:07:01 --> Loader Class Initialized
+INFO - 2019-08-22 16:07:01 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:07:01 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:07:01 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:07:01 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:07:01 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:07:01 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:07:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:07:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:07:01 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:07:01 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 16:07:01 --> Final output sent to browser
+DEBUG - 2019-08-22 16:07:01 --> Total execution time: 0.3314
+INFO - 2019-08-22 16:08:20 --> Config Class Initialized
+INFO - 2019-08-22 16:08:20 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:08:20 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:08:20 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:08:20 --> URI Class Initialized
+INFO - 2019-08-22 16:08:20 --> Router Class Initialized
+INFO - 2019-08-22 16:08:20 --> Output Class Initialized
+INFO - 2019-08-22 16:08:20 --> Security Class Initialized
+DEBUG - 2019-08-22 16:08:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:08:20 --> Input Class Initialized
+INFO - 2019-08-22 16:08:20 --> Language Class Initialized
+INFO - 2019-08-22 16:08:20 --> Language Class Initialized
+INFO - 2019-08-22 16:08:20 --> Config Class Initialized
+INFO - 2019-08-22 16:08:20 --> Loader Class Initialized
+INFO - 2019-08-22 16:08:20 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:08:20 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:08:20 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:08:20 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:08:20 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:08:20 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:08:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:08:20 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:08:21 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:08:21 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 16:08:21 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 130
+INFO - 2019-08-22 16:08:21 --> Final output sent to browser
+DEBUG - 2019-08-22 16:08:21 --> Total execution time: 0.3464
+INFO - 2019-08-22 16:08:31 --> Config Class Initialized
+INFO - 2019-08-22 16:08:32 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:08:32 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:08:32 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:08:32 --> URI Class Initialized
+INFO - 2019-08-22 16:08:32 --> Router Class Initialized
+INFO - 2019-08-22 16:08:32 --> Output Class Initialized
+INFO - 2019-08-22 16:08:32 --> Security Class Initialized
+DEBUG - 2019-08-22 16:08:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:08:32 --> Input Class Initialized
+INFO - 2019-08-22 16:08:32 --> Language Class Initialized
+INFO - 2019-08-22 16:08:32 --> Language Class Initialized
+INFO - 2019-08-22 16:08:32 --> Config Class Initialized
+INFO - 2019-08-22 16:08:32 --> Loader Class Initialized
+INFO - 2019-08-22 16:08:32 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:08:32 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:08:32 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:08:32 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:08:32 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:08:32 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:08:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:08:32 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:08:32 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:08:32 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 16:08:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 130
+INFO - 2019-08-22 16:08:32 --> Final output sent to browser
+DEBUG - 2019-08-22 16:08:32 --> Total execution time: 0.2833
+INFO - 2019-08-22 16:09:19 --> Config Class Initialized
+INFO - 2019-08-22 16:09:19 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:09:19 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:09:19 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:09:19 --> URI Class Initialized
+INFO - 2019-08-22 16:09:19 --> Router Class Initialized
+INFO - 2019-08-22 16:09:19 --> Output Class Initialized
+INFO - 2019-08-22 16:09:19 --> Security Class Initialized
+DEBUG - 2019-08-22 16:09:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:09:19 --> Input Class Initialized
+INFO - 2019-08-22 16:09:19 --> Language Class Initialized
+INFO - 2019-08-22 16:09:19 --> Language Class Initialized
+INFO - 2019-08-22 16:09:19 --> Config Class Initialized
+INFO - 2019-08-22 16:09:19 --> Loader Class Initialized
+INFO - 2019-08-22 16:09:19 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:09:19 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:09:19 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:09:19 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:09:19 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:09:19 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:09:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:09:19 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:09:19 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:09:19 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 16:09:19 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 130
+INFO - 2019-08-22 16:09:19 --> Final output sent to browser
+DEBUG - 2019-08-22 16:09:19 --> Total execution time: 0.3505
+INFO - 2019-08-22 16:13:16 --> Config Class Initialized
+INFO - 2019-08-22 16:13:16 --> Hooks Class Initialized
+DEBUG - 2019-08-22 16:13:16 --> UTF-8 Support Enabled
+INFO - 2019-08-22 16:13:16 --> Utf8 Class Initialized
+INFO - 2019-08-22 16:13:17 --> URI Class Initialized
+INFO - 2019-08-22 16:13:17 --> Router Class Initialized
+INFO - 2019-08-22 16:13:17 --> Output Class Initialized
+INFO - 2019-08-22 16:13:17 --> Security Class Initialized
+DEBUG - 2019-08-22 16:13:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 16:13:17 --> Input Class Initialized
+INFO - 2019-08-22 16:13:17 --> Language Class Initialized
+INFO - 2019-08-22 16:13:17 --> Language Class Initialized
+INFO - 2019-08-22 16:13:17 --> Config Class Initialized
+INFO - 2019-08-22 16:13:17 --> Loader Class Initialized
+INFO - 2019-08-22 16:13:17 --> Helper loaded: url_helper
+INFO - 2019-08-22 16:13:17 --> Helper loaded: file_helper
+INFO - 2019-08-22 16:13:17 --> Helper loaded: form_helper
+INFO - 2019-08-22 16:13:17 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 16:13:17 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 16:13:17 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 16:13:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 16:13:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 16:13:17 --> Controller Class Initialized
+DEBUG - 2019-08-22 16:13:17 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 16:13:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 130
+INFO - 2019-08-22 16:13:17 --> Final output sent to browser
+DEBUG - 2019-08-22 16:13:17 --> Total execution time: 0.3194
+INFO - 2019-08-22 17:26:30 --> Config Class Initialized
+INFO - 2019-08-22 17:26:30 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:26:30 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:26:30 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:26:30 --> URI Class Initialized
+INFO - 2019-08-22 17:26:31 --> Router Class Initialized
+INFO - 2019-08-22 17:26:31 --> Output Class Initialized
+INFO - 2019-08-22 17:26:31 --> Security Class Initialized
+DEBUG - 2019-08-22 17:26:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:26:31 --> Input Class Initialized
+INFO - 2019-08-22 17:26:31 --> Language Class Initialized
+INFO - 2019-08-22 17:26:32 --> Language Class Initialized
+INFO - 2019-08-22 17:26:32 --> Config Class Initialized
+INFO - 2019-08-22 17:26:32 --> Loader Class Initialized
+INFO - 2019-08-22 17:26:32 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:26:32 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:26:32 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:26:33 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:26:33 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:26:33 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:26:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:26:34 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:26:34 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:26:34 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:26:34 --> Final output sent to browser
+DEBUG - 2019-08-22 17:26:34 --> Total execution time: 4.6961
+INFO - 2019-08-22 17:26:35 --> Config Class Initialized
+INFO - 2019-08-22 17:26:35 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:26:35 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:26:35 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:26:35 --> URI Class Initialized
+INFO - 2019-08-22 17:26:35 --> Router Class Initialized
+INFO - 2019-08-22 17:26:35 --> Output Class Initialized
+INFO - 2019-08-22 17:26:35 --> Security Class Initialized
+DEBUG - 2019-08-22 17:26:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:26:35 --> Input Class Initialized
+INFO - 2019-08-22 17:26:35 --> Language Class Initialized
+INFO - 2019-08-22 17:26:35 --> Language Class Initialized
+INFO - 2019-08-22 17:26:35 --> Config Class Initialized
+INFO - 2019-08-22 17:26:35 --> Loader Class Initialized
+INFO - 2019-08-22 17:26:35 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:26:35 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:26:35 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:26:35 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:26:35 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:26:35 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:26:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:26:36 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:26:36 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:26:36 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:26:36 --> Final output sent to browser
+DEBUG - 2019-08-22 17:26:36 --> Total execution time: 0.9553
+INFO - 2019-08-22 17:29:46 --> Config Class Initialized
+INFO - 2019-08-22 17:29:47 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:29:47 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:29:47 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:29:47 --> URI Class Initialized
+INFO - 2019-08-22 17:29:47 --> Router Class Initialized
+INFO - 2019-08-22 17:29:47 --> Output Class Initialized
+INFO - 2019-08-22 17:29:47 --> Security Class Initialized
+DEBUG - 2019-08-22 17:29:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:29:47 --> Input Class Initialized
+INFO - 2019-08-22 17:29:47 --> Language Class Initialized
+INFO - 2019-08-22 17:29:47 --> Language Class Initialized
+INFO - 2019-08-22 17:29:47 --> Config Class Initialized
+INFO - 2019-08-22 17:29:47 --> Loader Class Initialized
+INFO - 2019-08-22 17:29:48 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:29:48 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:29:48 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:29:48 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:29:48 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:29:48 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:29:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:29:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:29:48 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:29:48 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:29:49 --> Final output sent to browser
+DEBUG - 2019-08-22 17:29:49 --> Total execution time: 2.1876
+INFO - 2019-08-22 17:30:22 --> Config Class Initialized
+INFO - 2019-08-22 17:30:22 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:30:23 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:30:23 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:30:23 --> URI Class Initialized
+INFO - 2019-08-22 17:30:23 --> Router Class Initialized
+INFO - 2019-08-22 17:30:23 --> Output Class Initialized
+INFO - 2019-08-22 17:30:23 --> Security Class Initialized
+DEBUG - 2019-08-22 17:30:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:30:23 --> Input Class Initialized
+INFO - 2019-08-22 17:30:23 --> Language Class Initialized
+INFO - 2019-08-22 17:30:23 --> Language Class Initialized
+INFO - 2019-08-22 17:30:23 --> Config Class Initialized
+INFO - 2019-08-22 17:30:23 --> Loader Class Initialized
+INFO - 2019-08-22 17:30:23 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:30:23 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:30:23 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:30:24 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:30:24 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:30:24 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:30:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:30:24 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:30:24 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:30:24 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:30:24 --> Final output sent to browser
+DEBUG - 2019-08-22 17:30:24 --> Total execution time: 1.7395
+INFO - 2019-08-22 17:40:08 --> Config Class Initialized
+INFO - 2019-08-22 17:40:09 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:40:09 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:40:09 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:40:09 --> URI Class Initialized
+INFO - 2019-08-22 17:40:09 --> Router Class Initialized
+INFO - 2019-08-22 17:40:09 --> Output Class Initialized
+INFO - 2019-08-22 17:40:09 --> Security Class Initialized
+DEBUG - 2019-08-22 17:40:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:40:09 --> Input Class Initialized
+INFO - 2019-08-22 17:40:09 --> Language Class Initialized
+INFO - 2019-08-22 17:40:09 --> Language Class Initialized
+INFO - 2019-08-22 17:40:09 --> Config Class Initialized
+INFO - 2019-08-22 17:40:09 --> Loader Class Initialized
+INFO - 2019-08-22 17:40:09 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:40:09 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:40:09 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:40:09 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:40:09 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:40:09 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:40:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:40:09 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:40:09 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:40:09 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:40:09 --> Final output sent to browser
+DEBUG - 2019-08-22 17:40:09 --> Total execution time: 0.4551
+INFO - 2019-08-22 17:40:09 --> Config Class Initialized
+INFO - 2019-08-22 17:40:09 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:40:09 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:40:09 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:40:09 --> URI Class Initialized
+INFO - 2019-08-22 17:40:09 --> Router Class Initialized
+INFO - 2019-08-22 17:40:09 --> Output Class Initialized
+INFO - 2019-08-22 17:40:09 --> Security Class Initialized
+DEBUG - 2019-08-22 17:40:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:40:10 --> Input Class Initialized
+INFO - 2019-08-22 17:40:10 --> Language Class Initialized
+INFO - 2019-08-22 17:40:10 --> Language Class Initialized
+INFO - 2019-08-22 17:40:10 --> Config Class Initialized
+INFO - 2019-08-22 17:40:10 --> Loader Class Initialized
+INFO - 2019-08-22 17:40:10 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:40:10 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:40:10 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:40:10 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:40:10 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:40:10 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:40:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:40:10 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:40:10 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:40:10 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:40:10 --> Final output sent to browser
+DEBUG - 2019-08-22 17:40:10 --> Total execution time: 0.3432
+INFO - 2019-08-22 17:40:42 --> Config Class Initialized
+INFO - 2019-08-22 17:40:42 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:40:42 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:40:42 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:40:42 --> URI Class Initialized
+INFO - 2019-08-22 17:40:42 --> Router Class Initialized
+INFO - 2019-08-22 17:40:42 --> Output Class Initialized
+INFO - 2019-08-22 17:40:42 --> Security Class Initialized
+DEBUG - 2019-08-22 17:40:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:40:42 --> Input Class Initialized
+INFO - 2019-08-22 17:40:42 --> Language Class Initialized
+INFO - 2019-08-22 17:40:42 --> Language Class Initialized
+INFO - 2019-08-22 17:40:42 --> Config Class Initialized
+INFO - 2019-08-22 17:40:43 --> Loader Class Initialized
+INFO - 2019-08-22 17:40:43 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:40:43 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:40:43 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:40:43 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:40:43 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:40:43 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:40:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:40:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:40:43 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:40:43 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:40:43 --> Final output sent to browser
+DEBUG - 2019-08-22 17:40:43 --> Total execution time: 0.4098
+INFO - 2019-08-22 17:41:15 --> Config Class Initialized
+INFO - 2019-08-22 17:41:15 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:41:15 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:41:15 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:41:15 --> URI Class Initialized
+INFO - 2019-08-22 17:41:15 --> Router Class Initialized
+INFO - 2019-08-22 17:41:15 --> Output Class Initialized
+INFO - 2019-08-22 17:41:15 --> Security Class Initialized
+DEBUG - 2019-08-22 17:41:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:41:15 --> Input Class Initialized
+INFO - 2019-08-22 17:41:15 --> Language Class Initialized
+INFO - 2019-08-22 17:41:15 --> Language Class Initialized
+INFO - 2019-08-22 17:41:15 --> Config Class Initialized
+INFO - 2019-08-22 17:41:15 --> Loader Class Initialized
+INFO - 2019-08-22 17:41:15 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:41:15 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:41:15 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:41:15 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:41:15 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:41:15 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:41:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:41:15 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:41:15 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:41:15 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:41:15 --> Final output sent to browser
+DEBUG - 2019-08-22 17:41:15 --> Total execution time: 0.3446
+INFO - 2019-08-22 17:42:18 --> Config Class Initialized
+INFO - 2019-08-22 17:42:18 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:42:18 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:42:18 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:42:18 --> URI Class Initialized
+INFO - 2019-08-22 17:42:18 --> Router Class Initialized
+INFO - 2019-08-22 17:42:18 --> Output Class Initialized
+INFO - 2019-08-22 17:42:18 --> Security Class Initialized
+DEBUG - 2019-08-22 17:42:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:42:18 --> Input Class Initialized
+INFO - 2019-08-22 17:42:18 --> Language Class Initialized
+INFO - 2019-08-22 17:42:19 --> Language Class Initialized
+INFO - 2019-08-22 17:42:19 --> Config Class Initialized
+INFO - 2019-08-22 17:42:19 --> Loader Class Initialized
+INFO - 2019-08-22 17:42:19 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:42:19 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:42:19 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:42:19 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:42:19 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:42:19 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:42:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:42:19 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:42:19 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:42:19 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:42:19 --> Final output sent to browser
+DEBUG - 2019-08-22 17:42:19 --> Total execution time: 0.3609
+INFO - 2019-08-22 17:42:53 --> Config Class Initialized
+INFO - 2019-08-22 17:42:53 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:42:53 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:42:53 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:42:53 --> URI Class Initialized
+INFO - 2019-08-22 17:42:53 --> Router Class Initialized
+INFO - 2019-08-22 17:42:53 --> Output Class Initialized
+INFO - 2019-08-22 17:42:53 --> Security Class Initialized
+DEBUG - 2019-08-22 17:42:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:42:53 --> Input Class Initialized
+INFO - 2019-08-22 17:42:53 --> Language Class Initialized
+INFO - 2019-08-22 17:42:53 --> Language Class Initialized
+INFO - 2019-08-22 17:42:53 --> Config Class Initialized
+INFO - 2019-08-22 17:42:53 --> Loader Class Initialized
+INFO - 2019-08-22 17:42:53 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:42:53 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:42:53 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:42:53 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:42:53 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:42:53 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:42:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:42:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:42:53 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:42:53 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:42:53 --> Final output sent to browser
+DEBUG - 2019-08-22 17:42:53 --> Total execution time: 0.3660
+INFO - 2019-08-22 17:45:16 --> Config Class Initialized
+INFO - 2019-08-22 17:45:16 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:45:16 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:45:16 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:45:16 --> URI Class Initialized
+INFO - 2019-08-22 17:45:16 --> Router Class Initialized
+INFO - 2019-08-22 17:45:16 --> Output Class Initialized
+INFO - 2019-08-22 17:45:16 --> Security Class Initialized
+DEBUG - 2019-08-22 17:45:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:45:16 --> Input Class Initialized
+INFO - 2019-08-22 17:45:16 --> Language Class Initialized
+INFO - 2019-08-22 17:45:16 --> Language Class Initialized
+INFO - 2019-08-22 17:45:16 --> Config Class Initialized
+INFO - 2019-08-22 17:45:16 --> Loader Class Initialized
+INFO - 2019-08-22 17:45:16 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:45:16 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:45:16 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:45:16 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:45:16 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:45:16 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:45:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:45:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:45:16 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:45:16 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 17:45:16 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 130
+INFO - 2019-08-22 17:45:16 --> Final output sent to browser
+DEBUG - 2019-08-22 17:45:16 --> Total execution time: 0.4510
+INFO - 2019-08-22 17:45:28 --> Config Class Initialized
+INFO - 2019-08-22 17:45:28 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:45:28 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:45:28 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:45:28 --> URI Class Initialized
+INFO - 2019-08-22 17:45:28 --> Router Class Initialized
+INFO - 2019-08-22 17:45:28 --> Output Class Initialized
+INFO - 2019-08-22 17:45:28 --> Security Class Initialized
+DEBUG - 2019-08-22 17:45:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:45:28 --> Input Class Initialized
+INFO - 2019-08-22 17:45:28 --> Language Class Initialized
+INFO - 2019-08-22 17:45:28 --> Language Class Initialized
+INFO - 2019-08-22 17:45:28 --> Config Class Initialized
+INFO - 2019-08-22 17:45:28 --> Loader Class Initialized
+INFO - 2019-08-22 17:45:28 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:45:28 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:45:28 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:45:28 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:45:28 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:45:28 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:45:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:45:28 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:45:28 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:45:28 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 17:45:28 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 130
+INFO - 2019-08-22 17:45:28 --> Final output sent to browser
+DEBUG - 2019-08-22 17:45:28 --> Total execution time: 0.3507
+INFO - 2019-08-22 17:45:54 --> Config Class Initialized
+INFO - 2019-08-22 17:45:54 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:45:54 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:45:54 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:45:54 --> URI Class Initialized
+INFO - 2019-08-22 17:45:54 --> Router Class Initialized
+INFO - 2019-08-22 17:45:54 --> Output Class Initialized
+INFO - 2019-08-22 17:45:54 --> Security Class Initialized
+DEBUG - 2019-08-22 17:45:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:45:54 --> Input Class Initialized
+INFO - 2019-08-22 17:45:54 --> Language Class Initialized
+INFO - 2019-08-22 17:45:54 --> Language Class Initialized
+INFO - 2019-08-22 17:45:54 --> Config Class Initialized
+INFO - 2019-08-22 17:45:54 --> Loader Class Initialized
+INFO - 2019-08-22 17:45:54 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:45:54 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:45:54 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:45:54 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:45:54 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:45:54 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:45:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:45:54 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:45:54 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:45:54 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:45:54 --> Final output sent to browser
+DEBUG - 2019-08-22 17:45:54 --> Total execution time: 0.4650
+INFO - 2019-08-22 17:46:46 --> Config Class Initialized
+INFO - 2019-08-22 17:46:46 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:46:46 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:46:46 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:46:46 --> URI Class Initialized
+INFO - 2019-08-22 17:46:46 --> Router Class Initialized
+INFO - 2019-08-22 17:46:46 --> Output Class Initialized
+INFO - 2019-08-22 17:46:46 --> Security Class Initialized
+DEBUG - 2019-08-22 17:46:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:46:46 --> Input Class Initialized
+INFO - 2019-08-22 17:46:46 --> Language Class Initialized
+INFO - 2019-08-22 17:46:46 --> Language Class Initialized
+INFO - 2019-08-22 17:46:46 --> Config Class Initialized
+INFO - 2019-08-22 17:46:46 --> Loader Class Initialized
+INFO - 2019-08-22 17:46:46 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:46:46 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:46:46 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:46:46 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:46:46 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:46:47 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:46:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:46:47 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:46:47 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:46:47 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 17:46:47 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 113
+INFO - 2019-08-22 17:46:47 --> Final output sent to browser
+DEBUG - 2019-08-22 17:46:47 --> Total execution time: 0.3102
+INFO - 2019-08-22 17:46:54 --> Config Class Initialized
+INFO - 2019-08-22 17:46:54 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:46:54 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:46:54 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:46:54 --> URI Class Initialized
+INFO - 2019-08-22 17:46:54 --> Router Class Initialized
+INFO - 2019-08-22 17:46:54 --> Output Class Initialized
+INFO - 2019-08-22 17:46:54 --> Security Class Initialized
+DEBUG - 2019-08-22 17:46:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:46:54 --> Input Class Initialized
+INFO - 2019-08-22 17:46:54 --> Language Class Initialized
+INFO - 2019-08-22 17:46:54 --> Language Class Initialized
+INFO - 2019-08-22 17:46:54 --> Config Class Initialized
+INFO - 2019-08-22 17:46:54 --> Loader Class Initialized
+INFO - 2019-08-22 17:46:54 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:46:54 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:46:54 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:46:54 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:46:54 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:46:54 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:46:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:46:54 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:46:54 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:46:54 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 17:46:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 130
+INFO - 2019-08-22 17:46:54 --> Final output sent to browser
+DEBUG - 2019-08-22 17:46:54 --> Total execution time: 0.4090
+INFO - 2019-08-22 17:51:38 --> Config Class Initialized
+INFO - 2019-08-22 17:51:38 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:51:38 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:51:38 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:51:38 --> URI Class Initialized
+INFO - 2019-08-22 17:51:38 --> Router Class Initialized
+INFO - 2019-08-22 17:51:38 --> Output Class Initialized
+INFO - 2019-08-22 17:51:38 --> Security Class Initialized
+DEBUG - 2019-08-22 17:51:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:51:39 --> Input Class Initialized
+INFO - 2019-08-22 17:51:39 --> Language Class Initialized
+INFO - 2019-08-22 17:51:39 --> Language Class Initialized
+INFO - 2019-08-22 17:51:39 --> Config Class Initialized
+INFO - 2019-08-22 17:51:39 --> Loader Class Initialized
+INFO - 2019-08-22 17:51:39 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:51:39 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:51:39 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:51:39 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:51:39 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:51:39 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:51:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:51:39 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:51:39 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:51:39 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:51:39 --> Final output sent to browser
+DEBUG - 2019-08-22 17:51:39 --> Total execution time: 0.3755
+INFO - 2019-08-22 17:51:51 --> Config Class Initialized
+INFO - 2019-08-22 17:51:51 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:51:51 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:51:51 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:51:51 --> URI Class Initialized
+INFO - 2019-08-22 17:51:51 --> Router Class Initialized
+INFO - 2019-08-22 17:51:51 --> Output Class Initialized
+INFO - 2019-08-22 17:51:51 --> Security Class Initialized
+DEBUG - 2019-08-22 17:51:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:51:52 --> Input Class Initialized
+INFO - 2019-08-22 17:51:52 --> Language Class Initialized
+INFO - 2019-08-22 17:51:52 --> Language Class Initialized
+INFO - 2019-08-22 17:51:52 --> Config Class Initialized
+INFO - 2019-08-22 17:51:52 --> Loader Class Initialized
+INFO - 2019-08-22 17:51:52 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:51:52 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:51:52 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:51:52 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:51:52 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:51:52 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:51:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:51:52 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:51:52 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:51:52 --> Kimochi MX_Controller Initialized
+ERROR - 2019-08-22 17:51:52 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\kimochi-web\pirantos\modules\Kimochi\controllers\Kimochi.php 113
+INFO - 2019-08-22 17:51:52 --> Final output sent to browser
+DEBUG - 2019-08-22 17:51:52 --> Total execution time: 0.3714
+INFO - 2019-08-22 17:52:30 --> Config Class Initialized
+INFO - 2019-08-22 17:52:30 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:52:30 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:52:30 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:52:30 --> URI Class Initialized
+INFO - 2019-08-22 17:52:30 --> Router Class Initialized
+INFO - 2019-08-22 17:52:30 --> Output Class Initialized
+INFO - 2019-08-22 17:52:30 --> Security Class Initialized
+DEBUG - 2019-08-22 17:52:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:52:30 --> Input Class Initialized
+INFO - 2019-08-22 17:52:30 --> Language Class Initialized
+INFO - 2019-08-22 17:52:30 --> Language Class Initialized
+INFO - 2019-08-22 17:52:30 --> Config Class Initialized
+INFO - 2019-08-22 17:52:30 --> Loader Class Initialized
+INFO - 2019-08-22 17:52:30 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:52:30 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:52:30 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:52:30 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:52:30 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:52:30 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:52:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:52:30 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:52:30 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:52:30 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:52:30 --> Final output sent to browser
+DEBUG - 2019-08-22 17:52:31 --> Total execution time: 0.5161
+INFO - 2019-08-22 17:52:31 --> Config Class Initialized
+INFO - 2019-08-22 17:52:31 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:52:31 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:52:31 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:52:31 --> URI Class Initialized
+INFO - 2019-08-22 17:52:31 --> Router Class Initialized
+INFO - 2019-08-22 17:52:31 --> Output Class Initialized
+INFO - 2019-08-22 17:52:31 --> Security Class Initialized
+DEBUG - 2019-08-22 17:52:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:52:31 --> Input Class Initialized
+INFO - 2019-08-22 17:52:31 --> Language Class Initialized
+INFO - 2019-08-22 17:52:31 --> Language Class Initialized
+INFO - 2019-08-22 17:52:31 --> Config Class Initialized
+INFO - 2019-08-22 17:52:31 --> Loader Class Initialized
+INFO - 2019-08-22 17:52:31 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:52:31 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:52:31 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:52:31 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:52:31 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:52:31 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:52:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:52:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:52:31 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:52:31 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:52:31 --> Final output sent to browser
+DEBUG - 2019-08-22 17:52:31 --> Total execution time: 0.5045
+INFO - 2019-08-22 17:53:06 --> Config Class Initialized
+INFO - 2019-08-22 17:53:06 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:53:06 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:53:06 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:53:06 --> URI Class Initialized
+INFO - 2019-08-22 17:53:06 --> Router Class Initialized
+INFO - 2019-08-22 17:53:06 --> Output Class Initialized
+INFO - 2019-08-22 17:53:06 --> Security Class Initialized
+DEBUG - 2019-08-22 17:53:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:53:06 --> Input Class Initialized
+INFO - 2019-08-22 17:53:06 --> Language Class Initialized
+INFO - 2019-08-22 17:53:06 --> Language Class Initialized
+INFO - 2019-08-22 17:53:06 --> Config Class Initialized
+INFO - 2019-08-22 17:53:06 --> Loader Class Initialized
+INFO - 2019-08-22 17:53:06 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:53:06 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:53:06 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:53:06 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:53:06 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:53:07 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:53:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:53:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:53:07 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:53:07 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:53:07 --> Final output sent to browser
+DEBUG - 2019-08-22 17:53:07 --> Total execution time: 0.4498
+INFO - 2019-08-22 17:53:31 --> Config Class Initialized
+INFO - 2019-08-22 17:53:31 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:53:31 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:53:31 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:53:31 --> URI Class Initialized
+INFO - 2019-08-22 17:53:31 --> Router Class Initialized
+INFO - 2019-08-22 17:53:31 --> Output Class Initialized
+INFO - 2019-08-22 17:53:31 --> Security Class Initialized
+DEBUG - 2019-08-22 17:53:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:53:31 --> Input Class Initialized
+INFO - 2019-08-22 17:53:31 --> Language Class Initialized
+INFO - 2019-08-22 17:53:31 --> Language Class Initialized
+INFO - 2019-08-22 17:53:31 --> Config Class Initialized
+INFO - 2019-08-22 17:53:31 --> Loader Class Initialized
+INFO - 2019-08-22 17:53:31 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:53:31 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:53:31 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:53:31 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:53:31 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:53:31 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:53:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:53:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:53:31 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:53:31 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:53:31 --> Final output sent to browser
+DEBUG - 2019-08-22 17:53:31 --> Total execution time: 0.4277
+INFO - 2019-08-22 17:53:51 --> Config Class Initialized
+INFO - 2019-08-22 17:53:51 --> Hooks Class Initialized
+DEBUG - 2019-08-22 17:53:51 --> UTF-8 Support Enabled
+INFO - 2019-08-22 17:53:51 --> Utf8 Class Initialized
+INFO - 2019-08-22 17:53:51 --> URI Class Initialized
+INFO - 2019-08-22 17:53:51 --> Router Class Initialized
+INFO - 2019-08-22 17:53:51 --> Output Class Initialized
+INFO - 2019-08-22 17:53:51 --> Security Class Initialized
+DEBUG - 2019-08-22 17:53:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-22 17:53:51 --> Input Class Initialized
+INFO - 2019-08-22 17:53:51 --> Language Class Initialized
+INFO - 2019-08-22 17:53:51 --> Language Class Initialized
+INFO - 2019-08-22 17:53:51 --> Config Class Initialized
+INFO - 2019-08-22 17:53:51 --> Loader Class Initialized
+INFO - 2019-08-22 17:53:51 --> Helper loaded: url_helper
+INFO - 2019-08-22 17:53:51 --> Helper loaded: file_helper
+INFO - 2019-08-22 17:53:51 --> Helper loaded: form_helper
+INFO - 2019-08-22 17:53:51 --> Helper loaded: pitulungan_helper
+INFO - 2019-08-22 17:53:51 --> Helper loaded: form_generator_helper
+INFO - 2019-08-22 17:53:51 --> Database Driver Class Initialized
+DEBUG - 2019-08-22 17:53:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-08-22 17:53:51 --> Session: Class initialized using 'files' driver.
+INFO - 2019-08-22 17:53:51 --> Controller Class Initialized
+DEBUG - 2019-08-22 17:53:51 --> Kimochi MX_Controller Initialized
+INFO - 2019-08-22 17:53:51 --> Final output sent to browser
+DEBUG - 2019-08-22 17:53:51 --> Total execution time: 0.4114
