@@ -7,6 +7,7 @@ class Request_data_order extends MX_Controller {
         $cust_id = $this->input->post('cust_id');
         $this->db->where('cust_id', $cust_id);
         $this->db->where('status', 'selesai');
+        $this->db->where('status_payment', 'Belum Bayar');
         $data_order = $this->db->get('kimochi_transaction.data_order')->result();
         
         foreach ($data_order as $value) {
