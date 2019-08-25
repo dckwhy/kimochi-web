@@ -7,12 +7,12 @@
                         <div class="row align-items-center">
                             <div class="col-md-12">
                                 <div class="page-header-title">
-                                    <h5 class="m-b-10">Members</h5>
+                                    <h5 class="m-b-10">Cashier</h5>
                                 </div>
                                 <ul class="breadcrumb">
-                                 <li class="breadcrumb-item"><a href="#">
+                                   <li class="breadcrumb-item"><a href="#">
                                     <i class="feather icon-user"></i></a></li>
-                                    <li class="breadcrumb-item"><a href="javascript:">Members</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:">Cashier</a></li>
                                     <li class="breadcrumb-item"><a href="javascript:">Detail</a></li>
                                 </ul>
                             </div>
@@ -25,33 +25,28 @@
                             <div class="col-sm-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5>Detail Members</h5> 
-                                        <a href="<?php echo base_url('admin/Members/data') ?>" class="btn shadow-2 btn-primary pull-right">Data</a> 
+                                        <h5>Detail Cashier</h5> 
+                                        <a href="<?php echo base_url('admin/cashier/add') ?>" class="btn shadow-2 btn-success pull-right">Add</a> 
+                                        <a href="<?php echo base_url('admin/cashier/data') ?>" class="btn shadow-2 btn-primary pull-right">Data</a> 
                                     </div>
                                     <?php 
                                     $id = $this->uri->segment(4);
                                     $this->db->where('id', $id);
-                                    $row = $this->db->get('data_user')->row();
+                                    $row = $this->db->get('data_cashier')->row();
                                     ?>
                                     <form  id="input_data">
                                         <div class="card-block"> 
                                             <div class="row">
-                                                <div class="col-md-12 col-sm-6 col-xs-12"> 
-                                                    <label>Foto Profile</label>
-                                                    <br>
-                                                    <img src="<?php echo base_url('prabotan/image/photo/'.@$row->img) ?>" alt="" id="preview" style="width:20%; margin:20px auto;">
-                                                    <br><br>
-                                                </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Name</label>
-                                                        <input type="text" class="form-control" name="name" value="<?php echo @$row->name ?>" placeholder="Name" required disabled>
+                                                        <label>Nama</label>
+                                                        <input type="text" class="form-control" name="nama" value="<?php echo @$row->nama ?>" placeholder="Nama" required disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Phone</label>
-                                                        <input type="tel" class="form-control" name="phone" value="<?php echo @$row->phone ?>" placeholder="Phone" required disabled>
+                                                        <input type="tel" class="form-control" name="no_hp" value="<?php echo @$row->no_hp ?>" placeholder="Phone" required disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12" required disabled>
@@ -62,8 +57,20 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
+                                                        <label>Username</label> 
+                                                        <input type="text" class="form-control" name="username" value="<?php echo @$row->username ?>" placeholder="Username" required disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
                                                         <label>Password</label> 
-                                                        <input type="text" class="form-control" name="password" value="<?php echo @$row->pass ?>" placeholder="Password" required disabled>
+                                                        <input type="text" class="form-control" name="password" value="<?php echo @$row->password ?>" placeholder="Password" required disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Jabatan</label> 
+                                                        <input type="text" class="form-control" name="jabatan" value="<?php echo @$row->jabatan ?>" placeholder="Jabatan" required disabled>
                                                     </div>
                                                 </div>
                                             </div>

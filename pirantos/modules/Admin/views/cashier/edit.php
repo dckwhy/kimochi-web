@@ -7,12 +7,12 @@
                         <div class="row align-items-center">
                             <div class="col-md-12">
                                 <div class="page-header-title">
-                                    <h5 class="m-b-10">Members</h5>
+                                    <h5 class="m-b-10">Cashier</h5>
                                 </div>
                                 <ul class="breadcrumb">
                                    <li class="breadcrumb-item"><a href="#">
                                     <i class="feather icon-user"></i></a></li>
-                                    <li class="breadcrumb-item"><a href="javascript:">Members</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:">Cashier</a></li>
                                     <li class="breadcrumb-item"><a href="javascript:">Update</a></li>
                                 </ul>
                             </div>
@@ -25,56 +25,55 @@
                             <div class="col-sm-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5>Update Members</h5> 
-                                        <a href="<?php echo base_url('admin/Members/data') ?>" class="btn shadow-2 btn-primary pull-right">Data</a> 
+                                        <h5>Update Cashier</h5> 
+                                        <a href="<?php echo base_url('admin/cashier/add') ?>" class="btn shadow-2 btn-success pull-right">Add</a> 
+                                        <a href="<?php echo base_url('admin/cashier/data') ?>" class="btn shadow-2 btn-primary pull-right">Data</a> 
                                     </div>
                                     <?php 
                                     $id = $this->uri->segment(4);
                                     $this->db->where('id', $id);
-                                    $row = $this->db->get('data_user')->row();
+                                    $row = $this->db->get('data_cashier')->row();
                                     ?>
                                     <form  id="input_data">
                                         <div class="card-block"> 
                                             <div class="row">
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Name</label>
-                                                        <input type="text" class="form-control" required name="name" value="<?php echo @$row->name ?>" placeholder="Name">
+                                                        <label>Nama</label>
+                                                        <input type="text" class="form-control" name="nama" value="<?php echo @$row->nama ?>" placeholder="Nama" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Phone</label>
-                                                        <input type="tel" class="form-control" required name="phone" value="<?php echo @$row->phone ?>" placeholder="Phone">
+                                                        <input type="tel" class="form-control" name="no_hp" value="<?php echo @$row->no_hp ?>" placeholder="Phone" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12" required>
+                                                    <div class="form-group">
+                                                        <label>Email</label>
+                                                        <input type="email" class="form-control" name="email" value="<?php echo @$row->email ?>" placeholder="Email" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Email</label>
-                                                        <input type="email" class="form-control" required name="email" value="<?php echo @$row->email ?>" placeholder="Email">
+                                                        <label>Username</label> 
+                                                        <input type="text" class="form-control" name="username" value="<?php echo @$row->username ?>" placeholder="Username" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Password</label> 
-                                                        <input type="text" class="form-control" required name="pass" value="<?php echo @$row->pass ?>" placeholder="Password">
+                                                        <input type="text" class="form-control" name="password" value="<?php echo @$row->password ?>" placeholder="Password" required>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12"> 
-                                                    <label>Foto Profile</label>
-                                                    <br>
-                                                    <div class="custom-file">
-                                                        <input type="file" name="foto_file" class="custom-file-input"
-                                                        id="imgInp">
-                                                        <label class="custom-file-label" for="inputGroupFile01">Choose
-                                                        file</label>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Jabatan</label> 
+                                                        <input type="text" class="form-control" name="jabatan" value="<?php echo @$row->jabatan ?>" placeholder="Jabatan" required>
                                                     </div>
-                                                    <img src="<?php echo base_url('prabotan/image/photo/'.@$row->img) ?>" alt="" 
-                                                    id="preview" style="width:40%; margin:20px auto;">
-                                                    <br><br>
                                                 </div>
                                                 <input type="hidden" name="id" value="<?= @$row->id ?>">
-                                                <input type="hidden" name="img" value="<?php echo @$row->img ?>">
                                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                                     <button type="submit" class="btn btn-primary pull-right"><i class="feather icon-send"></i>Save </button>
                                                 </div>
@@ -133,7 +132,7 @@
            $.ajax({
                data: data,
                type: "POST",
-               url: "<?php echo base_url('admin/members/upload_img_summernote') ?>",
+               url: "<?php echo base_url('admin/cashier/upload_img_summernote') ?>",
                cache: false,
                contentType: false,
                processData: false,
@@ -151,7 +150,7 @@
                     $('.loading').show();
                     $.ajax({
                        type: "post",
-                       url: "<?php echo base_url('admin/members/edit_data') ?>",
+                       url: "<?php echo base_url('admin/cashier/edit_data') ?>",
                        cache: false,
                        enctype: 'multipart/form-data',
                        data: new FormData($('#input_data')[0]),
@@ -163,7 +162,7 @@
                                $('.sukses_menyimpan').click();
                                setTimeout(function () {
                                    window.location =
-                                   "<?php echo base_url('admin/members/data') ?>";
+                                   "<?php echo base_url('admin/cashier/data') ?>";
                                }, 2000)
                            } else {
                                $('.gagal_menyimpan').click();

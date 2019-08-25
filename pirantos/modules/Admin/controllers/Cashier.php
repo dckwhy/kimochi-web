@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 header("Access-Control-Allow-Origin: *"); 
 
-class Members extends MY_Controller {
+class Cashier extends MY_Controller {
 
 	public function __construct()
 	{
@@ -15,27 +15,27 @@ class Members extends MY_Controller {
 
 	public function index()
 	{ 
-		$data['konten'] = $this->load->view('member/data', NULL, TRUE);
+		$data['konten'] = $this->load->view('cashier/data', NULL, TRUE);
 		$this->load->view ('admin/main_admin', $data);
 	}
 	public function data()
 	{ 
-		$data['konten'] = $this->load->view('member/data', NULL, TRUE);
+		$data['konten'] = $this->load->view('cashier/data', NULL, TRUE);
 		$this->load->view ('admin/main_admin', $data);
 	}
 	public function add()
 	{ 
-		$data['konten'] = $this->load->view('member/add', NULL, TRUE);
+		$data['konten'] = $this->load->view('cashier/add', NULL, TRUE);
 		$this->load->view ('admin/main_admin', $data);
 	}
 	public function detail()
 	{ 
-		$data['konten'] = $this->load->view('member/detail', NULL, TRUE);
+		$data['konten'] = $this->load->view('cashier/detail', NULL, TRUE);
 		$this->load->view ('admin/main_admin', $data);
 	}
 	public function edit()
 	{ 
-		$data['konten'] = $this->load->view('member/edit', NULL, TRUE);
+		$data['konten'] = $this->load->view('cashier/edit', NULL, TRUE);
 		$this->load->view ('admin/main_admin', $data);
 	}
 	// public function insert_data_checker()
@@ -90,29 +90,28 @@ class Members extends MY_Controller {
 	public function edit_data()
 	{
 		$data = $this->input->post();
-		$date = date('ymhs');
 		$id = $data['id'];
-		if(move_uploaded_file(
-			$_FILES['foto_file']['tmp_name'],
-			'./prabotan/image/photo/'.'img'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION)
-		))
-		{ 	
-			$path = './prabotan/image/photo/'.$data['img'];
-			if(is_file($path)){
-				unlink($path);
-			}
-			$file = 'img'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION);  
-			$data['img'] = $file;
-		}
 
 		unset($data['id']);
-		unset($data['foto_file']);
 		$this->db->where('id', $id);
-		$data_insert = $this->db->update('data_user', $data);
+		$data_insert = $this->db->update('data_cashier', $data);
 		if ($data_insert) {
 			$data_feed['msg'] = 'success';
 		}else{
 			$data_feed['msg'] = 'fail'; 
+		}
+
+		echo json_encode($data_feed);
+	}
+
+	public function insert_data(){
+		$data = $this->input->post();
+
+		$data_insert = $this->db->insert('data_cashier', $data);
+		if ($data_insert) {
+			$data_feed['msg'] = 'success';
+		}else{
+			$data_feed['msg'] = 'fail';
 		}
 
 		echo json_encode($data_feed);

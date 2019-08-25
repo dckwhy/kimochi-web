@@ -88,10 +88,10 @@
                             </a>
                         </li>
 
-                        <li data-username="Members" class="nav-item <?php if($uri1 == 'members'){ echo 'active'; } ?>">
-                            <a href="<?php echo base_url('admin/members') ?>" class="nav-link">
+                        <li data-username="Cashier" class="nav-item <?php if($uri1 == 'cashier'){ echo 'active'; } ?>">
+                            <a href="<?php echo base_url('admin/cashier') ?>" class="nav-link">
                                 <span class="pcoded-micon"><i class="feather icon-users"></i></span><span
-                                    class="pcoded-mtext">Members</span>
+                                    class="pcoded-mtext">Cashier</span>
                             </a>
                         </li>
 
@@ -103,7 +103,7 @@
                             </a>
                         </li>
 
-                        <li data-username="Bank Soal"
+                        <!-- <li data-username="Bank Soal"
                             class="nav-item <?php if($uri1 == 'bank_soal'){ echo 'active'; } ?>">
                             <a href="<?php echo base_url('admin/bank_soal') ?>" class="nav-link">
                                 <span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span
@@ -158,7 +158,7 @@
                                 <span class="pcoded-micon"><i class="feather icon-mail"></i></span><span
                                     class="pcoded-mtext">Contact Us</span>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
