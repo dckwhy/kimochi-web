@@ -128,11 +128,9 @@ class Kimochi extends MX_Controller {
 
 	public function get_data_helm()
 	{	
-		$cust_id = $this->input->post('cust_id');
 		$id = $this->input->post('id');
 		$this->db->where('id', $id);
-		$this->db->where('cust_id', $cust_id);
-
+ 
 		$data = $this->db->get('kimochi_helm.data_helm')->row();
 
 		if($data->tempurung_luar == null){
@@ -178,4 +176,5 @@ class Kimochi extends MX_Controller {
 		}
 		echo json_encode($feedback);
 	}
+
 }
