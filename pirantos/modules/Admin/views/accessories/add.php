@@ -77,7 +77,19 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Harga</label> 
+                                                        <label>Harga Pokok</label> 
+                                                        <input type="text" class="form-control" name="harga_pokok" placeholder="Harga Pokok" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Harga Jual</label> 
+                                                        <input type="text" class="form-control" name="harga_jual" placeholder="Harga Jual" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Merk</label> 
                                                         <input type="text" class="form-control" name="harga" placeholder="Harga" required>
                                                     </div>
                                                 </div>

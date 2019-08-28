@@ -79,8 +79,20 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Harga</label> 
-                                                        <input type="text" class="form-control" name="harga" value="<?php echo @$row->harga ?>" placeholder="Harga" required disabled>
+                                                        <label>Merk</label> 
+                                                        <input type="text" class="form-control" name="merk" value="<?php echo @$row->merk ?>" placeholder="Merk" required disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Harga Pokok</label> 
+                                                        <input type="text" class="form-control" name="harga_pokok" value="<?php echo @$row->harga_pokok ?>" placeholder="Harga Pokok" required disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Harga Jual</label> 
+                                                        <input type="text" class="form-control" name="harga_jual" value="<?php echo @$row->harga_jual ?>" placeholder="Harga Jual" required disabled>
                                                     </div>
                                                 </div>
                                             </div>

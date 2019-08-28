@@ -15,4 +15,14 @@ class Request_data_order extends MX_Controller {
         }
         echo json_encode($data_order);
 	}
+
+    public function get_all_order(){
+        
+        $this->db->select('kimochi_customer.data_customer.nama, kimochi_customer.data_customer.no_hp, kimochi_transaction.data_order.cust_id, kimochi_transaction.data_order.id_to, kimochi_transaction.data_order.date_proses');
+        $this->db->from('kimochi_customer.data_customer');
+        $this->db->join('kimochi_transaction.data_order', 'kimochi_customer.data_customer.cust_id = kimochi_transaction.data_order.cust_id');
+        $data_order = $this->db->get()->result();
+
+        echo json_encode($data_order);
+    }
 }
