@@ -8,9 +8,9 @@ class Request_helm extends MX_Controller {
         $this->db->where('cust_id', $cust_id);
         $this->db->where('status', 'proses');
         $data_helm = $this->db->get('kimochi_helm.data_helm')->result();
-        
+        //$data_helm['jumlah'] = count($data_helm);
         foreach ($data_helm as $value) {
-            
+            $value->jumlah = count($data_helm);
         }
         echo json_encode($data_helm);
 	}

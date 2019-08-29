@@ -20,8 +20,10 @@ class Kimochi extends MX_Controller {
 			$insert = $this->db->insert('kimochi_helm.data_helm', $data);
 			$feedback_msg['auth_message'] = 'success';
 			if($insert) {
-				$get_data = $this->db->get('kimochi_helm.data_helm')->row();
-				$feedback_msg['id_helm'] = $get_data->id;
+				$get_data = $this->db->get('kimochi_helm.data_helm')->result();
+				foreach ($get_data as $value) {
+					$feedback_msg['id_helm'] = $value->id;
+				}
 			}
 		} else {
 			$feedback_msg['auth_message'] = 'fail';
@@ -29,11 +31,12 @@ class Kimochi extends MX_Controller {
 		echo json_encode($feedback_msg);
 	}
 	public function insert_kondisi_helm(){
+		$cust_id = $this->input->post('cust_id');
+		$id_helm = $this->input->post('id_helm');
 		$tempurung_luar = $this->input->post('tempurung_luar');
 		$visor = $this->input->post('visor');
 		$baut_kiri = $this->input->post('baut_kiri');
 		$baut_kanan = $this->input->post('baut_kanan');
-		$cust_id = $this->input->post('cust_id');
 		$data_busa = $this->input->post('busa');
 		$busa = implode($data_busa);
 
@@ -46,6 +49,8 @@ class Kimochi extends MX_Controller {
 			'busa' => $busa);
 		
 		if ($data) {
+			$this->db->where('cust_id', $cust_id);
+			$this->db->where('id', $id_helm);
 			$update = $this->db->update('kimochi_helm.data_helm', $data);
 			$feedback_msg['auth_message'] = 'success';
 			if($update) {
@@ -69,13 +74,15 @@ class Kimochi extends MX_Controller {
 			'merk' => $merk,
 			'lama_pemakaian' => $lama_pemakaian);
 
-			$this->db->where('cust_id', $cust_id);
-			$this->db->where('id', $id);
-			$update = $this->db->update('kimochi_helm.data_helm', $data);
+		$this->db->where('cust_id', $cust_id);
+		$this->db->where('id', $id);
+		$update = $this->db->update('kimochi_helm.data_helm', $data);
+
 		if ($update) {
 			$feedback_msg['auth_message'] = 'success';
 			$this->db->where('id', $id);
 			$data_kondisi = $this->db->get('kimochi_helm.data_helm')->row();
+
 			if($data_kondisi->tempurung_luar == null){
 				$feedback_msg['auth_message'] = 'kondisi kosong';
 			}
@@ -101,9 +108,16 @@ class Kimochi extends MX_Controller {
 		$cust_id = array( 'CUST_', $code_cust);
 		$data['cust_id'] = implode($cust_id);
 		if ($data) {
-			$this->db->insert('kimochi_customer.data_customer', $data);
+			$insert = $this->db->insert('kimochi_customer.data_customer', $data);
 			$feedback_msg['data_customer'] = $data;
 			$feedback_msg['auth_message'] = 'success';
+			if ($insert) {
+				$data_helm = array('cust_id' => $data['cust_id'],
+							  'merk' => 'Input Helm 1',
+						      'jumlah' => 1,
+							  'status' => 'proses');
+				$this->db->insert('kimochi_helm.data_helm', $data_helm);
+			}
 		} else {
 			$feedback_msg['auth_message'] = 'fail';
 		}
@@ -117,6 +131,12 @@ class Kimochi extends MX_Controller {
 		$update = $this->db->update('kimochi_customer.data_customer', $data);
 
 		if ($update) {
+			$data_helm = array('cust_id' => $data['cust_id'],
+						      'jumlah' => 1,
+							  'status' => 'proses',
+							  'merk' => 'Input Helm 1'
+							);
+			$this->db->insert('kimochi_helm.data_helm', $data_helm);
 			$feedback_msg['auth_message'] = 'success';
 		} else {
 			$feedback_msg['auth_message'] = 'fail';
@@ -190,6 +210,7 @@ class Kimochi extends MX_Controller {
 		$last_row=$this->db->select('*')->order_by('id',"desc")->limit(1)->get('kimochi_helm.data_helm')->row();
 		$this->db->where('cust_id', $cust_id);	
 		$this->db->where('id', $last_row->id);
+		$this->db->where('status', 'proses');
 
 		$delete = $this->db->delete('kimochi_helm.data_helm');
 		if($delete){
