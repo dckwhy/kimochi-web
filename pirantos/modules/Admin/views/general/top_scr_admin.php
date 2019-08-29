@@ -103,6 +103,21 @@
                             </a>
                         </li>
 
+                        <li data-username="PRODUCT"
+                            class="nav-item <?php if($uri1 == 'product'){ echo 'active pcoded-trigger'; } ?> pcoded-hasmenu">
+                            <a href="javascript:" class="nav-link"><span class="pcoded-micon"><i
+                                        class="feather icon-package"></i></span><span
+                                    class="pcoded-mtext">Product</span></a>
+                            <ul class="pcoded-submenu">
+                                <li class="<?php if($uri2 == 'accessories'){ echo 'active'; } ?>"><a
+                                        href="<?php echo base_url('admin/accessories') ?>" class="">Accessories</a>
+                                </li>
+                                <li class="<?php if($uri2 == 'layanan'){ echo 'active'; } ?>"><a
+                                        href="<?php echo base_url('admin/layanan') ?>" class="">Layanan</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <!-- <li data-username="Bank Soal"
                             class="nav-item <?php if($uri1 == 'bank_soal'){ echo 'active'; } ?>">
                             <a href="<?php echo base_url('admin/bank_soal') ?>" class="nav-link">
