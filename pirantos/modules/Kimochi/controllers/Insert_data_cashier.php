@@ -7,13 +7,13 @@ class Insert_data_cashier extends MX_Controller {
         $data = $this->input->post();
         
         $to_id = $this->input->post('to_id');
-		$data_insert = $this->db->insert('kimochi_cashier.data_cashier', $data);
+		$data_insert = $this->db->insert('kimochi_transaction.data_transaction', $data);
 		if ($data_insert) {
             $feedback['msg'] = 'success';
             
             $status['status_payment'] = 'Lunas';
             $this->db->where('id_to', $to_id);
-            $this->db->update('kimochi_transaction.data_order', $status);
+            $this->db->update('kimochi_order.data_order', $status);
 		}else {
 			$feedback['msg'] = 'fail';			
 		}

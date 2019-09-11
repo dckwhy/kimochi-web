@@ -5,7 +5,7 @@ class Request_customer extends MX_Controller {
 
 	public function insert_data(){
 		$data = $this->input->post();
-		$date = date('Ymd');
+		$date = date('Ymhs');
 
 		$data['cust_id'] = 'CST_'+$date;
 		$data_insert = $this->db->insert('kimochi_customer.data_customer', $data);

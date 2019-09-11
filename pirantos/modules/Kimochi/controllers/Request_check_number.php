@@ -6,7 +6,7 @@ class Request_check_number extends MX_Controller {
 	public function check_number(){
         $phone_number = $this->input->post('phone_number');
         
-        $this->db->where('no_hp', $phone_number);
+        $this->db->where('nohp_cust', $phone_number);
         $get_data_customer = $this->db->get('kimochi_customer.data_customer')->row();
 
         if (count($get_data_customer) == 0) {

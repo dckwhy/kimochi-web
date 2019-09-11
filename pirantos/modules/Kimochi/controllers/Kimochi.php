@@ -11,10 +11,10 @@ class Kimochi extends MX_Controller {
 	public function insert_helm(){
 		$cust_id = $this->input->post('cust_id');
 		$merk = $this->input->post('merk');
-		$data = array('cust_id' => $cust_id,
+		$data = array('id_cust' => $cust_id,
 			'jumlah' => 1,
 			'status' => 'proses',
-			'merk' => $merk);
+			'merk_helm' => $merk);
 
 		if ($data) {
 			$insert = $this->db->insert('kimochi_helm.data_helm', $data);
@@ -49,7 +49,7 @@ class Kimochi extends MX_Controller {
 			'busa' => $busa);
 		
 		if ($data) {
-			$this->db->where('cust_id', $cust_id);
+			$this->db->where('id_cust', $cust_id);
 			$this->db->where('id', $id_helm);
 			$update = $this->db->update('kimochi_helm.data_helm', $data);
 			$feedback_msg['auth_message'] = 'success';
@@ -70,11 +70,11 @@ class Kimochi extends MX_Controller {
 		$merk = $this->input->post('merk');
 		$lama_pemakaian = $this->input->post('lama_pemakaian');
 
-		$data = array('jenis' => $jenis,
-			'merk' => $merk,
+		$data = array('jenis_helm' => $jenis,
+			'merk_helm' => $merk,
 			'lama_pemakaian' => $lama_pemakaian);
 
-		$this->db->where('cust_id', $cust_id);
+		$this->db->where('id_cust', $cust_id);
 		$this->db->where('id', $id);
 		$update = $this->db->update('kimochi_helm.data_helm', $data);
 
@@ -106,14 +106,15 @@ class Kimochi extends MX_Controller {
 		}
 		$code_cust = implode($code);
 		$cust_id = array( 'CUST_', $code_cust);
-		$data['cust_id'] = implode($cust_id);
+		$data['id_cust'] = implode($cust_id);
+		
 		if ($data) {
 			$insert = $this->db->insert('kimochi_customer.data_customer', $data);
 			$feedback_msg['data_customer'] = $data;
 			$feedback_msg['auth_message'] = 'success';
 			if ($insert) {
-				$data_helm = array('cust_id' => $data['cust_id'],
-							  'merk' => 'Input Helm 1',
+				$data_helm = array('id_cust' => $data['id_cust'],
+							  'merk_helm' => 'Input Helm 1',
 						      'jumlah' => 1,
 							  'status' => 'proses');
 				$this->db->insert('kimochi_helm.data_helm', $data_helm);
@@ -127,14 +128,14 @@ class Kimochi extends MX_Controller {
 	public function update_data_cust(){
 		$data = $this->input->post();
 
-		$this->db->where('cust_id', $data['cust_id']);
+		$this->db->where('id_cust', $data['id_cust']);
 		$update = $this->db->update('kimochi_customer.data_customer', $data);
 
 		if ($update) {
-			$data_helm = array('cust_id' => $data['cust_id'],
+			$data_helm = array('id_cust' => $data['id_cust'],
 						      'jumlah' => 1,
 							  'status' => 'proses',
-							  'merk' => 'Input Helm 1'
+							  'merk_helm' => 'Input Helm 1'
 							);
 			$this->db->insert('kimochi_helm.data_helm', $data_helm);
 			$feedback_msg['auth_message'] = 'success';
@@ -206,7 +207,8 @@ class Kimochi extends MX_Controller {
 	{
 		$cust_id = $this->input->post('cust_id');
 		$last_row=$this->db->select('*')->order_by('id',"desc")->limit(1)->get('kimochi_helm.data_helm')->row();
-		$this->db->where('cust_id', $cust_id);	
+		$feedback['last_row'] = $last_row->id;
+		$this->db->where('id_cust', $cust_id);	
 		$this->db->where('id', $last_row->id);
 		$this->db->where('status', 'proses');
 
