@@ -95,7 +95,7 @@ class Users extends MY_Controller {
 			)){ $file  = 'photo'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION); }
 			$data['photo'] = $file;
 
-		$data_insert = $this->db->insert('data_user', $data);
+		$data_insert = $this->db->insert('data_admin', $data);
 		if ($data_insert) {
 			$data_feed['msg'] = 'success';
 		}else{
@@ -126,7 +126,7 @@ class Users extends MY_Controller {
 		unset($data['id']);
 		unset($data['foto_file']);
 		$this->db->where('id', $id);
-		$data_insert = $this->db->update('data_user', $data);
+		$data_insert = $this->db->update('data_admin', $data);
 		if ($data_insert) {
 			$data_feed['msg'] = 'success';
 		}else{

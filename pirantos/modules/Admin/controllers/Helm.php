@@ -23,34 +23,29 @@ class Helm extends MY_Controller {
 		$data['konten'] = $this->load->view('helm/data', NULL, TRUE);
 		$this->load->view ('admin/main_admin', $data);
 	}
-	public function add()
-	{ 
-		$data['konten'] = $this->load->view('helm/add', NULL, TRUE);
-		$this->load->view ('admin/main_admin', $data);
-	}
 	public function detail()
 	{ 
 		$data['konten'] = $this->load->view('helm/detail', NULL, TRUE);
 		$this->load->view ('admin/main_admin', $data);
 	}
-	public function insert_data(){
-		$data = $this->input->post();
-		$date = date('Yhs');
-		if(move_uploaded_file(
-			$_FILES['foto_file']['tmp_name'],
-			'./prabotan/image/helm/'.'helm'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION)
-			)){ $file  = 'helm'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION); }
-			$data['foto'] = $file;
+	// public function insert_data(){
+	// 	$data = $this->input->post();
+	// 	$date = date('Yhs');
+	// 	if(move_uploaded_file(
+	// 		$_FILES['foto_file']['tmp_name'],
+	// 		'./prabotan/image/helm/'.'helm'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION)
+	// 		)){ $file  = 'helm'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION); }
+	// 		$data['foto'] = $file;
 
-		$data_insert = $this->db->insert('kimochi_helm.data_helm', $data);
-		if ($data_insert) {
-			$data_feed['msg'] = 'success';
-		}else{
-			$data_feed['msg'] = 'fail';
-		}
+	// 	$data_insert = $this->db->insert('kimochi_helm.data_helm', $data);
+	// 	if ($data_insert) {
+	// 		$data_feed['msg'] = 'success';
+	// 	}else{
+	// 		$data_feed['msg'] = 'fail';
+	// 	}
 
-		echo json_encode($data_feed);
-	}
+	// 	echo json_encode($data_feed);
+	// }
 	// public function edit()
 	// { 
 	// 	$data['konten'] = $this->load->view('calon_mahasiswa/edit', NULL, TRUE);

@@ -87,31 +87,51 @@ class Cashier extends MY_Controller {
 		exit;
 	}
 
-	public function edit_data()
-	{
-		$data = $this->input->post();
-		$id = $data['id'];
-
-		unset($data['id']);
-		$this->db->where('id', $id);
-		$data_insert = $this->db->update('data_cashier', $data);
-		if ($data_insert) {
-			$data_feed['msg'] = 'success';
-		}else{
-			$data_feed['msg'] = 'fail'; 
-		}
-
-		echo json_encode($data_feed);
-	}
-
 	public function insert_data(){
 		$data = $this->input->post();
+		$date = date('Yhs');
+		if(move_uploaded_file(
+			$_FILES['foto_file']['tmp_name'],
+			'./prabotan/image/photo_cashier/'.'photo'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION)
+			)){ $file  = 'photo'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION); }
+			$data['photo'] = $file;
 
 		$data_insert = $this->db->insert('data_cashier', $data);
 		if ($data_insert) {
 			$data_feed['msg'] = 'success';
 		}else{
 			$data_feed['msg'] = 'fail';
+		}
+
+		echo json_encode($data_feed);
+	}
+
+	public function edit_data()
+	{
+		$data = $this->input->post();
+		$date = date('ymhs');
+		$id = $data['id'];
+		if(move_uploaded_file(
+			$_FILES['foto_file']['tmp_name'],
+			'./prabotan/image/photo_cashier/'.'photo'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION)
+		))
+		{ 	
+			$path = './prabotan/image/photo_cashier/'.$data['photo'];
+			if(is_file($path)){
+				unlink($path);
+			}
+			$file = 'photo'.$date.'.'.pathinfo($_FILES['foto_file']['name'], PATHINFO_EXTENSION);  
+			$data['photo'] = $file;
+		}
+
+		unset($data['id']);
+		unset($data['foto_file']);
+		$this->db->where('id', $id);
+		$data_insert = $this->db->update('data_cashier', $data);
+		if ($data_insert) {
+			$data_feed['msg'] = 'success';
+		}else{
+			$data_feed['msg'] = 'fail'; 
 		}
 
 		echo json_encode($data_feed);

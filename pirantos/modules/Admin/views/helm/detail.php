@@ -25,7 +25,8 @@
                             <div class="col-sm-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5>Detail Helm</h5> 
+                                        <h5>Detail Helm</h5>
+                                        <a href="<?php echo base_url('admin/layanan/data') ?>" class="btn shadow-2 btn-primary pull-right">Data</a> 
                                     </div>
                                     <?php 
                                     $id = $this->uri->segment(4);
@@ -39,34 +40,28 @@
                                                     <br>
                                                     <label for="">Foto</label>
                                                     <br>
-                                                    <img src="<?php echo base_url('prabotan/image/helm/'.@$row->foto) ?>" alt="" id="preview" style="width:20%; margin:20px auto;">
+                                                    <img src="<?php echo base_url('prabotan/image/helm/'.@$row->img) ?>" alt="" id="preview" style="width:20%; margin:20px auto;">
                                                     <br><br>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Customer ID</label>
-                                                        <input type="text" class="form-control" name="cust_id" placeholder="Cust ID" value="<?php echo @$row->cust_id ?>" disabled>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Nama Barang</label>
-                                                        <input type="text" class="form-control" name="nama_barang" placeholder="Nama Barang" value="<?php echo @$row->nama_barang ?>" disabled>
+                                                        <input type="text" class="form-control" name="id_cust" placeholder="Cust ID" value="<?php echo @$row->id_cust ?>" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Jenis</label>
-                                                        <select class="form-control" name="jenis" placeholder="Jenis" disabled>
-                                                            <option <?php if($row->jenis == 'Half Face'){ echo 'selected'; } ?> value="Half Face">Half Face</option> 
-                                                            <option <?php if($row->jenis == 'Full Face'){ echo 'selected'; } ?> value="Full Face">Full Face</option> 
+                                                        <select class="form-control" name="jenis_helm" placeholder="Jenis" disabled>
+                                                            <option <?php if($row->jenis_helm == 'Half Face'){ echo 'selected'; } ?> value="Half Face">Half Face</option> 
+                                                            <option <?php if($row->jenis_helm == 'Full Face'){ echo 'selected'; } ?> value="Full Face">Full Face</option> 
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Merk</label>
-                                                        <input type="text" class="form-control" name="merk" placeholder="Merk" value="<?php echo @$row->merk ?>" disabled>
+                                                        <input type="text" class="form-control" name="merk_helm" placeholder="Merk" value="<?php echo @$row->merk_helm ?>" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -127,6 +122,12 @@
                                                     <div class="form-group">
                                                         <label>Jumlah</label>
                                                         <input type="text" class="form-control" name="jumlah" placeholder="Jumlah" value="<?php echo @$row->jumlah ?>" disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Status</label>
+                                                        <input type="text" class="form-control" name="status" placeholder="Status" value="<?php echo @$row->status ?>" disabled>
                                                     </div>
                                                 </div>
                                             </div>

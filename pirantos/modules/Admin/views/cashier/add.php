@@ -32,28 +32,39 @@
                                     <form  id="input_data">
                                         <div class="card-block"> 
                                             <div class="row">
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Nama</label>
-                                                        <input type="text" class="form-control" name="nama" value="<?php echo @$row->nama ?>" placeholder="Nama" required>
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <label>Photo</label>
+                                                    <div class="custom-file">
+                                                        <input type="file" name="foto_file" class="custom-file-input"
+                                                            id="imgInp">
+                                                        <label class="custom-file-label" for="inputGroupFile01">Choose
+                                                            file</label>
                                                     </div>
+                                                    <img src="" alt="" id="preview" style="width:30%;margin:20px auto;">
+                                                    <br><br>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Phone</label>
-                                                        <input type="tel" class="form-control" name="no_hp" placeholder="Phone" required>
+                                                        <label>Nama</label> 
+                                                        <input type="text" class="form-control" name="nama_cashier" placeholder="Nama" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12" required>
                                                     <div class="form-group">
-                                                        <label>Email</label>
-                                                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                        <label>Phone</label>
+                                                        <input type="tel" class="form-control" name="nohp_cashier" placeholder="Phone" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Username</label> 
+                                                        <label>Username</label>
                                                         <input type="text" class="form-control" name="username" placeholder="Username" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Email</label>
+                                                        <input type="email" class="form-control" name="email" placeholder="Email" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -72,12 +83,6 @@
                                                         }
                                                         ?>
                                                         <input type="text" class="form-control" required value="<?= randomPassword() ?>" name="password" placeholder="Password">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Jabatan</label> 
-                                                        <input type="text" class="form-control" name="jabatan" placeholder="Jabatan" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -118,7 +123,7 @@
 
         $('#input_data').on('submit', function (e) {
             e.preventDefault();
-            $('#body').val($('.summernote').summernote('code'));
+            // $('#body').val($('.summernote').summernote('code'));
             $('.loading').show();
             $.ajax({
                 type: "post",

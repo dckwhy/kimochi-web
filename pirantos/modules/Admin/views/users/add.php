@@ -63,12 +63,6 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Username</label>
-                                                        <input type="text" class="form-control" required name="username" placeholder="Username">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
                                                         <label>Password</label>
                                                         <?php 
                                                         function randomPassword() {
@@ -82,13 +76,7 @@
                                                             return implode($pass);  
                                                         }
                                                         ?>
-                                                        <input type="text" class="form-control" required value="<?= randomPassword() ?>" name="password" placeholder="Password">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Position</label>
-                                                        <input type="text" class="form-control" required name="position" placeholder="Position">
+                                                        <input type="text" class="form-control" required value="<?= randomPassword() ?>" name="upass" placeholder="Password">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">

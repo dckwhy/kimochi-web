@@ -50,7 +50,7 @@
                                                         <tr>
                                                             <td><?= $value->username ?></td>
                                                             <td><?= $value->email ?></td>
-                                                            <td><?= $value->no_hp ?></td>
+                                                            <td><?= $value->nohp_cashier ?></td>
                                                             <td>
                                                                 <?= get_detail_edit_delete_js($value->id) ?>
                                                             </td>

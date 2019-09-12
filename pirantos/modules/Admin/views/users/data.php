@@ -44,7 +44,7 @@
                                                     <?php 
                                                     $this->db->order_by('id', 'desc');
                                                     // $this->db->where('jabatan !=', 'Super user');
-                                                    $get_user = $this->db->get('data_user')->result();
+                                                    $get_user = $this->db->get('data_admin')->result();
                                                     foreach ($get_user as $value) { ?>
                                                     <tr>
                                                         <td><?= $value->name ?></td>
@@ -114,7 +114,7 @@ function get_delete(id){
 function act_delete(id){
     where_value = id;
     where_field = 'id';
-    table_name  = 'data_user';
+    table_name  = 'data_admin';
     $('.loading').show();
     $.ajax({
         type :"post",  

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 24, 2019 at 02:45 PM
+-- Generation Time: Sep 12, 2019 at 06:01 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 5.6.40
 
@@ -30,25 +30,28 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `data_helm` (
   `id` int(11) NOT NULL,
-  `cust_id` varchar(20) DEFAULT NULL,
-  `jenis` enum('Half Face','Full Face') DEFAULT NULL,
-  `merk` varchar(20) DEFAULT NULL,
-  `lama pemakaian` varchar(15) DEFAULT NULL,
+  `id_cust` varchar(50) DEFAULT NULL,
+  `id_layanan` int(11) DEFAULT NULL,
+  `jenis_helm` varchar(20) DEFAULT NULL,
+  `merk_helm` varchar(20) DEFAULT NULL,
+  `lama_pemakaian` varchar(20) DEFAULT NULL,
   `tempurung_luar` enum('Mulus','Baret','Retak','Pecah') DEFAULT NULL,
   `visor` enum('Mulus','Baret Buram','Retak','Pecah') DEFAULT NULL,
   `baut_kiri` enum('Bagus','Peyot','Rusak') DEFAULT NULL,
   `baut_kanan` enum('Bagus','Peyot','Rusak') DEFAULT NULL,
   `busa` varchar(50) DEFAULT NULL,
-  `foto` varchar(100) DEFAULT NULL,
-  `layanan_id` int(11) DEFAULT NULL
+  `img` varchar(100) DEFAULT NULL,
+  `status` varchar(50) DEFAULT NULL,
+  `jumlah` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `data_helm`
 --
 
-INSERT INTO `data_helm` (`id`, `cust_id`, `jenis`, `merk`, `lama pemakaian`, `tempurung_luar`, `visor`, `baut_kiri`, `baut_kanan`, `busa`, `foto`, `layanan_id`) VALUES
-(1, 'CUST_1234567', 'Full Face', 'Ink', '1 Minggu', 'Mulus', 'Mulus', 'Bagus', 'Bagus', 'Bagus', NULL, 1);
+INSERT INTO `data_helm` (`id`, `id_cust`, `id_layanan`, `jenis_helm`, `merk_helm`, `lama_pemakaian`, `tempurung_luar`, `visor`, `baut_kiri`, `baut_kanan`, `busa`, `img`, `status`, `jumlah`) VALUES
+(5, 'CUST_53602941', 1, 'Full Face', 'INK', '1 Tahun', 'Mulus', 'Mulus', 'Bagus', 'Peyot', 'Robek|', NULL, 'Selesai', 1),
+(6, 'CUST_53602941', 2, 'Full Face', 'Shoei', '1 Tahun', 'Baret', 'Baret Buram', 'Bagus', 'Peyot', 'Robek|', NULL, 'Selesai', 1);
 
 --
 -- Indexes for dumped tables
@@ -68,7 +71,7 @@ ALTER TABLE `data_helm`
 -- AUTO_INCREMENT for table `data_helm`
 --
 ALTER TABLE `data_helm`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

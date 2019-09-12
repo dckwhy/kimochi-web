@@ -37,16 +37,22 @@
                                     <form  id="input_data">
                                         <div class="card-block"> 
                                             <div class="row">
+                                                <div class="col-md-12 col-sm-6 col-xs-12"> 
+                                                    <label>Foto Profile</label>
+                                                    <br>
+                                                    <img src="<?php echo base_url('prabotan/image/photo/'.@$row->photo) ?>" alt="" id="preview" style="width:20%; margin:20px auto;">
+                                                    <br><br>
+                                                </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Nama</label>
-                                                        <input type="text" class="form-control" name="nama" value="<?php echo @$row->nama ?>" placeholder="Nama" required disabled>
+                                                        <input type="text" class="form-control" name="nama" value="<?php echo @$row->nama_cashier ?>" placeholder="Nama" required disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Phone</label>
-                                                        <input type="tel" class="form-control" name="no_hp" value="<?php echo @$row->no_hp ?>" placeholder="Phone" required disabled>
+                                                        <input type="tel" class="form-control" name="no_hp" value="<?php echo @$row->nohp_cashier ?>" placeholder="Phone" required disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12" required disabled>
@@ -65,12 +71,6 @@
                                                     <div class="form-group">
                                                         <label>Password</label> 
                                                         <input type="text" class="form-control" name="password" value="<?php echo @$row->password ?>" placeholder="Password" required disabled>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Jabatan</label> 
-                                                        <input type="text" class="form-control" name="jabatan" value="<?php echo @$row->jabatan ?>" placeholder="Jabatan" required disabled>
                                                     </div>
                                                 </div>
                                             </div>

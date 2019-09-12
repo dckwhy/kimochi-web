@@ -40,13 +40,13 @@
                                                         <label class="custom-file-label" for="inputGroupFile01">Choose
                                                             file</label>
                                                     </div>
-                                                    <img src="" alt="" id="preview" style="width:60%;margin:20px auto;">
+                                                    <img src="" alt="" id="preview" style="width:40%;margin:20px auto;">
                                                     <br><br>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Nama Layanan</label>
-                                                        <input type="text" class="form-control" required name="nama_layanan" placeholder="Nama Layanan">
+                                                        <label>Judul Layanan</label>
+                                                        <input type="text" class="form-control" required name="judul_layanan" placeholder="Judul Layanan">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -57,8 +57,8 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Description</label>
-                                                        <textarea type="text" class="form-control" required name="description" placeholder="Description"></textarea>
+                                                        <label>Deskripsi</label>
+                                                        <textarea type="text" class="form-control" required name="deskripsi" placeholder="Deskripsi"></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 col-sm-12 col-xs-12">

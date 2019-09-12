@@ -34,7 +34,7 @@
                                             <table id="zero-configuration" class="display table nowrap table-striped table-hover" style="width:100%">
                                                 <thead>
                                                     <tr>
-                                                        <th>Nama Layanan</th>
+                                                        <th>Judul Layanan</th>
                                                         <th>Desc</th>
                                                         <th>Harga</th>
                                                         <th>Action</th>
@@ -44,11 +44,11 @@
                                                     <?php 
                                                     // $this->db->order_by('id', 'desc');
                                                     // $this->db->where('jabatan !=', 'Super user');
-                                                    $data = $this->db->get('kimochi_product.data_layanan')->result();
+                                                    $data = $this->db->get('kimochi_product.data_jasa')->result();
                                                     foreach ($data as $value) { ?>
                                                     <tr>
-                                                        <td><?= $value->nama_layanan ?></td>
-                                                        <td><?= limit_text ($value->description, 8) ?></td>
+                                                        <td><?= $value->judul_layanan ?></td>
+                                                        <td><?= limit_text ($value->deskripsi, 8) ?></td>
                                                         <td><?= $value->harga ?></td>
                                                         <td>
                                                             <?= get_detail_edit_delete_js($value->id) ?>
@@ -114,7 +114,7 @@ function get_delete(id){
 function act_delete(id){
     where_value = id;
     where_field = 'id';
-    table_name  = 'kimochi_product.data_layanan';
+    table_name  = 'kimochi_product.data_jasa';
     $('.loading').show();
     $.ajax({
         type :"post",  

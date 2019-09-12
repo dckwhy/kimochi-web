@@ -26,8 +26,6 @@
                                 <div class="card">
                                     <div class="card-header">
                                         <h5>Data Helm</h5> 
-                                        <a href="<?php echo base_url('admin/helm/add') ?>" class="btn shadow-2 btn-success pull-right">Add</a> 
-                                        <a href="<?php echo base_url('admin/helm/data') ?>" class="btn shadow-2 btn-primary pull-right">Data</a>
                                     </div>
                                     <div class="card-block">
                                         <div class="table-responsive">
@@ -35,9 +33,8 @@
                                                 <thead>
                                                     <tr>
                                                         <th>Customer ID</th>
-                                                        <th>Nama Barang</th>
-                                                        <th>Jenis</th>
                                                         <th>Merk</th>
+                                                        <th>Jenis</th>
                                                         <th>Action</th>
                                                     </tr>
                                                 </thead>
@@ -48,10 +45,9 @@
                                                     $data = $this->db->get('kimochi_helm.data_helm')->result();
                                                     foreach ($data as $value) { ?>
                                                     <tr>
-                                                        <td><?= $value->cust_id ?></td>
-                                                        <td><?= $value->nama_barang ?></td>
-                                                        <td><?= $value->jenis ?></td>
-                                                        <td><?= $value->merk ?></td>
+                                                        <td><?= $value->id_cust ?></td>
+                                                        <td><?= $value->merk_helm ?></td>
+                                                        <td><?= $value->jenis_helm ?></td>
                                                         <td>
                                                             <?= get_detail_delete_js($value->id) ?>
                                                         </td>
@@ -74,9 +70,6 @@
 <script>
 function get_detail (id) {  
     window.location = ('<?= base_url() ?>admin/helm/detail/'+id)
-}
-function get_edit (id) {
-    window.location = ('<?= base_url() ?>admin/helm/edit/'+id) 
 }
 </script>
 <script>

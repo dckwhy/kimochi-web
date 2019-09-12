@@ -32,7 +32,7 @@
                                     <?php 
                                     $id = $this->uri->segment(4);
                                     $this->db->where('id', $id);
-                                    $row = $this->db->get('kimochi_product.data_layanan')->row();
+                                    $row = $this->db->get('kimochi_product.data_jasa')->row();
                                     ?>
                                     <form  id="input_data">
                                         <div class="card-block"> 
@@ -48,13 +48,13 @@
                                                             file</label>
                                                     </div>
                                                     <img src="<?= base_url('prabotan/image/layanan/'.$row->img) ?>"
-                                                        alt="" id="preview" style="width:60%; margin:20px auto;">
+                                                        alt="" id="preview" style="width:40%; margin:20px auto;">
                                                     <br><br>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Nama Layanan</label>
-                                                        <input type="text" class="form-control" required name="nama_layanan" value="<?php echo @$row->nama_layanan ?>" placeholder="Nama Layanan">
+                                                        <label>Judul Layanan</label>
+                                                        <input type="text" class="form-control" required name="judul_layanan" value="<?php echo @$row->judul_layanan ?>" placeholder="Judul Layanan">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -65,8 +65,8 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Description</label>
-                                                        <textarea type="text" class="form-control" required name="description" placeholder="Description"><?= $row->description ?></textarea>
+                                                        <label>Deskripsi</label>
+                                                        <textarea type="text" class="form-control" required name="deskripsi" placeholder="Deskripsi"><?= $row->deskripsi ?></textarea>
                                                     </div>
                                                 </div>
                                                 <input type="hidden" name="id" value="<?= @$row->id ?>">

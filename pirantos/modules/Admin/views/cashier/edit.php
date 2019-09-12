@@ -37,16 +37,30 @@
                                     <form  id="input_data">
                                         <div class="card-block"> 
                                             <div class="row">
+                                                <div class="col-md-12 col-sm-6 col-xs-6"> 
+                                                    <label>Photo</label>
+                                                    <br>
+                                                    <img src="<?php echo base_url('prabotan/image/photo_cashier/'.@$row->photo) ?>" alt="" 
+                                                    id="preview" style="width:20%; margin:20px auto;">
+                                                    <br><br>
+                                                    <div class="custom-file">
+                                                        <input type="file" name="foto_file" class="custom-file-input"
+                                                        id="imgInp">
+                                                        <label class="custom-file-label" for="inputGroupFile01">Choose
+                                                        file</label>
+                                                    </div>
+                                                    <br><br>
+                                                </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Nama</label>
-                                                        <input type="text" class="form-control" name="nama" value="<?php echo @$row->nama ?>" placeholder="Nama" required>
+                                                        <input type="text" class="form-control" name="nama_cashier" value="<?php echo @$row->nama_cashier ?>" placeholder="Nama" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Phone</label>
-                                                        <input type="tel" class="form-control" name="no_hp" value="<?php echo @$row->no_hp ?>" placeholder="Phone" required>
+                                                        <input type="tel" class="form-control" name="nohp_cashier" value="<?php echo @$row->nohp_cashier ?>" placeholder="Phone" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12" required>
@@ -67,13 +81,9 @@
                                                         <input type="text" class="form-control" name="password" value="<?php echo @$row->password ?>" placeholder="Password" required>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Jabatan</label> 
-                                                        <input type="text" class="form-control" name="jabatan" value="<?php echo @$row->jabatan ?>" placeholder="Jabatan" required>
-                                                    </div>
-                                                </div>
+                                                
                                                 <input type="hidden" name="id" value="<?= @$row->id ?>">
+                                                <input type="hidden" name="photo" value="<?php echo @$row->photo ?>">
                                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                                     <button type="submit" class="btn btn-primary pull-right"><i class="feather icon-send"></i>Save </button>
                                                 </div>
@@ -112,36 +122,6 @@
        $("#imgInp").change(function () {
            readURL(this);
        });
-
-       $(function () {
-           $('.summernote').summernote({
-               height: 200,
-               callbacks: {
-                   onImageUpload: function (files) {
-                       uploadFile(files[0]);
-                   }
-               }
-           });
-
-       });
-
-       function uploadFile(file) {
-           data = new FormData();
-           data.append("file", file);
-
-           $.ajax({
-               data: data,
-               type: "POST",
-               url: "<?php echo base_url('admin/cashier/upload_img_summernote') ?>",
-               cache: false,
-               contentType: false,
-               processData: false,
-               success: function (url) {
-                   $('.summernote').summernote("insertImage", url);
-               }
-           });
-
-       }
 
        $('#input_data').on('submit', function (e) {
         e.preventDefault();

@@ -49,7 +49,7 @@ class Layanan extends MY_Controller {
 			$data['img'] = $file;
 
 		unset($data['foto_file']);
-		$data_insert = $this->db->insert('kimochi_product.data_layanan', $data);
+		$data_insert = $this->db->insert('kimochi_product.data_jasa', $data);
 		if ($data_insert) {
 			$data_feed['msg'] = 'success';
 		}else{
@@ -76,7 +76,7 @@ class Layanan extends MY_Controller {
 		unset($data['id']);
 		unset($data['foto_file']);
 		$this->db->where('id', $id);
-		$data_insert = $this->db->update('kimochi_product.data_layanan', $data);
+		$data_insert = $this->db->update('kimochi_product.data_jasa', $data);
 		if ($data_insert) {
 			$data_feed['msg'] = 'success';
 		}else{

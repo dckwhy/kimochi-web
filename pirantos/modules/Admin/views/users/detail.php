@@ -32,7 +32,7 @@
                                     <?php 
                                     $id = $this->uri->segment(4);
                                     $this->db->where('id', $id);
-                                    $row = $this->db->get('data_user')->row();
+                                    $row = $this->db->get('data_admin')->row();
                                     ?>
                                     <form  id="input_data">
                                         <div class="card-block"> 
@@ -61,22 +61,10 @@
                                                         <input type="email" class="form-control" name="email" value="<?php echo @$row->email ?>" placeholder="Email" required disabled>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12" required disabled>
-                                                    <div class="form-group">
-                                                        <label>Username</label>
-                                                        <input type="text" class="form-control" name="username" value="<?php echo @$row->username ?>" placeholder="Username" required disabled>
-                                                    </div>
-                                                </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Password</label> 
-                                                        <input type="text" class="form-control" name="password" value="<?php echo @$row->password ?>" placeholder="Password" required disabled>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Position</label>
-                                                        <input type="text" class="form-control" name="position" value="<?php echo @$row->position ?>" placeholder="Position" required disabled>
+                                                        <input type="text" class="form-control" name="upass" value="<?php echo @$row->upass ?>" placeholder="Password" required disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
